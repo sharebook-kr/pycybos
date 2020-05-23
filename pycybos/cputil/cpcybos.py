@@ -3,7 +3,7 @@ import win32com.client
 
 class CpCybos:
     def __init__(self):
-        self.com_obj = win32com.client.Dispatch("CpUtil.CpCybos")
+        self.com_obj = win32com.client.Dispatch("cputil.CpCybos")
 
     @property
     def IsConnect(self):
